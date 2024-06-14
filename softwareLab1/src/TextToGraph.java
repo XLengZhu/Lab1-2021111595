@@ -173,7 +173,7 @@ public class TextToGraph {    public static void main(String[] args) {
         if (bridgeWords.isEmpty()) {
             return "No bridge words from \"" + word1 + "\" to \"" + word2 + "\"!";
         } else {
-            return "The bridge words from \"" + word1 + "\" to \"" + word2 + "\" are: \"" + String.join(", ", bridgeWords) + "\".";
+            return "The bridge words from \"" + word1 + "\" to \"" + word2 + "\" is: \"" + String.join(", ", bridgeWords) + "\".";
         }
     }
 
